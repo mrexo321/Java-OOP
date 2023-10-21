@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Latihan.iml" filepath="$PROJECT_DIR$/.idea/Latihan.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Latihan 4.1/Latihan 4.1.iml" filepath="$PROJECT_DIR$/Latihan 4.1/Latihan 4.1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Latihan 4.2/Latihan 4.2.iml" filepath="$PROJECT_DIR$/Latihan 4.2/Latihan 4.2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Latihan 4.3/Latihan 4.3.iml" filepath="$PROJECT_DIR$/Latihan 4.3/Latihan 4.3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Latihan 4.4/Latihan 4.4.iml" filepath="$PROJECT_DIR$/Latihan 4.4/Latihan 4.4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Setter dan Getter Persegi dan Persegi Panjang/Setter dan Getter Persegi dan Persegi Panjang.iml" filepath="$PROJECT_DIR$/Setter dan Getter Persegi dan Persegi Panjang/Setter dan Getter Persegi dan Persegi Panjang.iml" />
+    </modules>
+  </component>
+</project>
