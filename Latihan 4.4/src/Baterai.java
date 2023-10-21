@@ -2,10 +2,12 @@ public class Baterai {
     private float kuatArus;
     private float hambatan;
 
-    public rumus(float kuatArus,float hambatan)
+    public float baterai(float kuatArus , float hambatan)
     {
         this.kuatArus = kuatArus;
         this.hambatan = hambatan;
+
+        return kuatArus * hambatan;
     }
 
     public float getKuatArus() {
@@ -13,6 +15,7 @@ public class Baterai {
     }
 
     public void setKuatArus(float kuatArus) {
+
         this.kuatArus = kuatArus;
     }
 
@@ -31,8 +34,15 @@ public class Baterai {
 
     public static void main(String[] args) {
         Baterai hukum = new Baterai();
+         hukum.setKuatArus(3);
+         hukum.setHambatan(12);
 
+         float getKuatArus = hukum.getKuatArus();
+         float getHambatan = hukum.getHambatan();
+         float getTegangan = hukum.hitungTegangan();
 
-
+        System.out.println("Hasil kuat arus : " + getKuatArus + " ampere" );
+        System.out.println("Hambatan : " + getHambatan + " ohm" );
+        System.out.println("Hasil tegangan : " + getTegangan + " volt" );
     }
 }
