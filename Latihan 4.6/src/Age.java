@@ -62,11 +62,13 @@ public class Age {
 
         System.out.print("Masukan tahun Lahir anda : ");
         person1.setYearBirth(input.nextInt());
+        System.out.println("\n" +
+                "====== Hasil Perhitungan Umur ======");
 
         System.out.print("Hari ini tahun? : ");
         person1.setYearNow(input.nextInt());
 
-        System.out.println("Umur Kamu sampai hari ini adalah : " + person1.hitungUmur() + " tahun");
+        System.out.println("Umur Kamu sampai hari ini adalah " + person1.hitungUmur() + " tahun");
 
         System.out.println("Tandanya Kamu " + person1.tandanyaKamu(person1.hitungUmur()));
 
