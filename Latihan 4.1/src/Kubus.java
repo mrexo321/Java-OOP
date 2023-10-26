@@ -39,8 +39,8 @@ public class Kubus {
 
     public static void main(String[] args) {
         Kubus kubus = new Kubus();
-        kubus.setSisi(10);
-        kubus.setMassa(2000);
+        kubus.setSisi(5);
+        kubus.setMassa(250);
         System.out.println("====== Massa Jenis Kubus ======");
         System.out.println("Sisi : " + kubus.getSisi());
         System.out.println("Massa : " + kubus.getMassa() +

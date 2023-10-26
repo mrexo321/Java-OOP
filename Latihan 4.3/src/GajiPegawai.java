@@ -47,9 +47,9 @@ public class GajiPegawai {
         this.gajiPokok = gajiPokok;
     }
 
-//    public int getTotalGaji() {
-//        return totalGaji;
-//    }
+    public int getTotalGaji() {
+        return totalGaji;
+    }
 
 //    public void setTotalGaji(int totalGaji) {
 //        this.totalGaji = totalGaji;
@@ -86,7 +86,7 @@ public class GajiPegawai {
                 pegawai.getAlamat(),
                 pegawai.getUangTunjangan(),
                 pegawai.getUangTransport(),
-                pegawai.getUangTunjangan(),
+                pegawai.getTotalGaji(),
                 pegawai.getGajiPokok()
                 );
 
