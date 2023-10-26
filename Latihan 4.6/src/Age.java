@@ -4,6 +4,10 @@ public class Age {
     private int yearBirth;
     private int yearNow;
 
+    public int age(int yearNow){
+        return this.yearNow = yearNow;
+    }
+
     public int getYearBirth() {
         return yearBirth;
     }
@@ -13,7 +17,7 @@ public class Age {
     }
 
     public int getYearNow() {
-        return yearNow;
+        return this.age(yearNow);
     }
 
     public void setYearNow(int yearNow) {
